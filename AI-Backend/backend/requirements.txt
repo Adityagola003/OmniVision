@@ -1,0 +1,10 @@
+django
+djangorestframework
+django-cors-headers
+torch
+torchvision
+transformers
+opencv-contrib-python
+pillow
+numpy
+requests
