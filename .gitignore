@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Environment Variables
+.env
+
+# Media
+media/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
