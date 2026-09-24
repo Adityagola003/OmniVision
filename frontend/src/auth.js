@@ -1,5 +1,5 @@
-const TOKEN_KEY = "intellivision_token";
-const USER_KEY = "intellivision_user";
+const TOKEN_KEY = "omnivision_token";
+const USER_KEY = "omnivision_user";
 export const API_BASE = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 
 export const getToken = () => localStorage.getItem(TOKEN_KEY);

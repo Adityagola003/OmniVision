@@ -34,7 +34,7 @@ const App = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
           <div className="container">
             <Link className="navbar-brand" to="/" onClick={closeMenu}>
-              <i className="bi bi-camera-fill me-2"></i>IntelliVision
+              <i className="bi bi-camera-fill me-2"></i>OmniVision
             </Link>
             <button
               className="navbar-toggler"
@@ -73,7 +73,7 @@ const App = () => {
 
         <footer className="footer text-center">
           <div className="container">
-            <p className="mb-0">&copy; 2026 IntelliVision. All rights reserved.</p>
+            <p className="mb-0">&copy; 2026 OmniVision. All rights reserved.</p>
           </div>
         </footer>
       </div>

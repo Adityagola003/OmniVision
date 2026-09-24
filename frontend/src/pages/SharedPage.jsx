@@ -23,7 +23,7 @@ const SharedPage = () => {
   return (
     <div className="container page-shell">
       <div className="shared-photo-card">
-        <span className="eyebrow">Shared from IntelliVision</span>
+        <span className="eyebrow">Shared from OmniVision</span>
         <h1>{photo.title}</h1>
         <img src={photo.url} alt={photo.title} className="shared-photo" />
         <div className="d-flex justify-content-between align-items-center gap-3 mt-4">

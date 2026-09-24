@@ -5,7 +5,7 @@ const HomePage = () => (
     <div className="hero-section text-center">
       <div className="container">
         <div className="hero-kicker"><span></span> Intelligent image studio</div>
-        <h1 className="display-4 fw-bold mb-4">Transform Your Photos with IntelliVision</h1>
+        <h1 className="display-4 fw-bold mb-4">Transform Your Photos with OmniVision</h1>
         <p className="lead mb-5 text-muted mx-auto" style={{ maxWidth: "700px" }}>
           The ultimate platform for organizing, enhancing, and sharing your visual memories. 
           Experience the power of AI-driven photo management.
@@ -21,7 +21,7 @@ const HomePage = () => (
       </div>
     </div>
 
-    <div className="container feature-strip" aria-label="IntelliVision workflow">
+    <div className="container feature-strip" aria-label="OmniVision workflow">
       <div className="feature-strip-item"><strong>01</strong><span>Upload a memory</span></div>
       <div className="feature-strip-line"></div>
       <div className="feature-strip-item"><strong>02</strong><span>Let AI restore detail</span></div>
