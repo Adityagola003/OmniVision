@@ -4,6 +4,7 @@ const HomePage = () => (
   <div>
     <div className="hero-section text-center">
       <div className="container">
+        <div className="hero-kicker"><span></span> Intelligent image studio</div>
         <h1 className="display-4 fw-bold mb-4">Transform Your Photos with IntelliVision</h1>
         <p className="lead mb-5 text-muted mx-auto" style={{ maxWidth: "700px" }}>
           The ultimate platform for organizing, enhancing, and sharing your visual memories. 
@@ -20,7 +21,20 @@ const HomePage = () => (
       </div>
     </div>
 
-    <div className="container my-5">
+    <div className="container feature-strip" aria-label="IntelliVision workflow">
+      <div className="feature-strip-item"><strong>01</strong><span>Upload a memory</span></div>
+      <div className="feature-strip-line"></div>
+      <div className="feature-strip-item"><strong>02</strong><span>Let AI restore detail</span></div>
+      <div className="feature-strip-line"></div>
+      <div className="feature-strip-item"><strong>03</strong><span>Keep the best version</span></div>
+    </div>
+
+    <div className="container home-features">
+      <div className="section-heading">
+        <span className="eyebrow">Built for your archive</span>
+        <h2>Less sorting. More seeing.</h2>
+        <p>One calm workspace for turning everyday photos into a collection worth revisiting.</p>
+      </div>
       <div className="row g-4">
         <div className="col-md-4">
           <div className="card h-100 text-center p-4">
